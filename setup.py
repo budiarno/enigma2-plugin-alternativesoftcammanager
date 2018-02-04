@@ -1,5 +1,5 @@
 from distutils.core import setup
-import setup_translate
+#import setup_translate
 
 
 setup(name = 'enigma2-plugin-extensions-alternativesoftcammanager',
@@ -10,6 +10,6 @@ setup(name = 'enigma2-plugin-extensions-alternativesoftcammanager',
 		packages=['Extensions.AlternativeSoftCamManager'],
 		package_data={'Extensions.AlternativeSoftCamManager': ['images/*.png']},
 		description = 'Start, stop, restart SoftCams, change setting path',
-		cmdclass = setup_translate.cmdclass,
+#		cmdclass = setup_translate.cmdclass,
 	)
 
